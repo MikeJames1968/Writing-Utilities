@@ -8,7 +8,8 @@ try:
         host="localhost",
         database="postgres",
         user="postgres",
-        password="mike" 
+        # Use your local DB password here; do not commit actual credentials.
+        password="REDACTED" 
     )
     print("--- SUCCESS ---")
     print("Python is talking to the Docker SQL Database!")
